@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment-5</title>
+
+    <!-- fontaWesome  -->
+    <script src="https://kit.fontawesome.com/ce64bf540b.js" crossorigin="anonymous"></script>
+
+
+    <!-- tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- nabbar  -->
+    <header class="px-4 rounded-xl">
+        <div class="navbar nav  px-5 rounded-md mt-8">
+            <div class="navbar-start">
+
+                <div>
+                    <h1 class="text-xl font-semibold">Interactive</h1>
+                    <p class="text-neutral-400">Geometry Genius</p>
+                </div>
+            </div>
+            <div class="navbar-end">
+
+                <a class="px-2 rounded-xl py-2 bg-blue-500 px-5 text-white" href="fequntly.html">Blog</a>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- product ditels  -->
+
+    <section class="lg:px-5 flex flex-col md:flex-row md:px-3  ">
+        <div class="card-details grid md:grid-cols-3 sm:grid-cols-1 gap-6  mt-5  md:w-[75%] ">
+
+            <!-- 1st card  -->
+            <div>
+                <div class="card w-full   shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/triangle.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title" id="fastname">Triangle</h2>
+                        <p> Area (A) = 0.5 x b x H</p>
+                        <div class="card-actions">
+
+                            <div class="flex text-center ">
+                                <div> <input id="fast-input" class="w-9/12 px-3 rounded-md" type="text" placeholder="b">
+                                </div>
+                                cm
+                                <div> <input id="secend-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="h"></div> cm
+
+                            </div>
+
+                            <button class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full w-full"
+                                id="fast-card">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd card  -->
+            <div>
+                <div class="card   w-full   shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/rectangle.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title" id="second-name">Rectangle</h2>
+                        <p> Area (A) = b x H</p>
+                        <div class="card-actions">
+
+                            <div class="flex text-center ">
+                                <div> <input id="sFest-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="w"></div>
+                                cm
+                                <div> <input id="sSecond-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="l"></div> cm
+
+                            </div>
+
+                            <button id="second-card"
+                                class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full w-full">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd card  -->
+            <div>
+                <div class="card w-full   shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/parallelogram.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="third-name" class="card-title">Parallelogram</h2>
+                        <p> Area (A) = b x H</p>
+                        <div class="card-actions">
+
+                            <div class="flex text-center ">
+                                <div> <input id="tFast-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="b"></div>
+                                cm
+                                <div> <input id="tSecond-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="h"></div> cm
+
+                            </div>
+
+                            <button id="third-card"
+                                class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full w-full">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4th card       -->
+            <div>
+                <div class="card w-full   shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/rhombus.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="fourth-name" class="card-title">Rhombus</h2>
+                        <p> Area (A) = 0.5 x d1 x d2</p>
+                        <div class="card-actions">
+
+                            <div class="flex text-center ">
+                                <div> <input id="fourFast-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="b"></div>
+                                cm
+                                <div> <input id="fourSecond-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="h"></div> cm
+
+                            </div>
+
+                            <button id="fourth-card"
+                                class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full w-full">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5th card  -->
+            <div>
+                <div class="card w-full   shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img class="w-9/12" src="/images/pentagon.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="five-name" class="card-title">Pentagon</h2>
+                        <p> Area (A) = 0.5 p X b</p>
+                        <div class="card-actions">
+
+                            <div class="flex text-center ">
+                                <div> <input id="fiveFast-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="b"></div>
+                                cm
+                                <div> <input id="fiveSecond-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="h"></div> cm
+
+                            </div>
+
+                            <button id="five-card"
+                                class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full ">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6th card  -->
+            <div>
+                <div class="card w-full shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img class="w-9/12" src="/images/ellipse.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="six-name" class="card-title">Ellipse</h2>
+                        <p> Area (A) = π ab</p>
+                        <div class="card-actions">
+                            <div class="flex text-center ">
+                                <div> <input id="sixFast-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="b"></div>
+                                cm
+                                <div> <input id="sixSecond-input" class="w-9/12 px-3 rounded-md" type="text"
+                                        placeholder="h"></div> cm
+
+                            </div>
+
+                            <button id="six-card"
+                                class="px-2 rounded-xl py-2 bg-blue-500 hover:bg-blue-800 w-full">Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="peice-detels border border-sky-500 shadow-xl   mx-auto md-w-[25%] lg-w-[25%] mt-10">
+            <h1 class="text-3xl text-center font-semibold  mt-6 px-3 ">Area Calculation</h1>
+
+
+            <div class="overflow-x-auto">
+                <table class="table table-zebra w-full ">
+                    <!-- head -->
+                    <thead id="container">
+                        <!-- <tr>
+                            <th></th>
+                            <th></th>
+                            <th> <button class="btn-primary p-1 rounded-md ">convart to m<sup>2</sup></button></th>
+
+                        </tr> -->
+
+                    </thead>
+
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
